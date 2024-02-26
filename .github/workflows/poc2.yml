@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
       - name: using variable
-        run : echo"used repo level variable{${{ vars.REPOVAR }}"
+        run : echo "used repo level variable{${{ vars.REPOVAR }}}"
       - name: Print Working Directory
         run: |
           pwd
