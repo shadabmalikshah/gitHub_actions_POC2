@@ -1,1 +1,24 @@
 #POC 2 yml 
+name: add script to workflow
+ 
+on:
+  push:
+    branches:
+      - main
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+ 
+     
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+ 
+         - name: Print Working Directory
+        run: |
+          pwd
+          ls -l
+      # - name: Adding Script to my workflow in github actions
+      #   run: |
+      #     bash /home/runner/work/GH_ACT_2/GH_ACT_2/script.sh
