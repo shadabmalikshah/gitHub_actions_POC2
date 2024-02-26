@@ -19,6 +19,6 @@ jobs:
         run: |
           pwd
           ls -l
-      # - name: Adding Script to my workflow in github actions
-      #   run: |
-      #     bash /home/runner/work/GH_ACT_2/GH_ACT_2/script.sh
+      - name: Adding Script to my workflow in github actions
+        run: |
+          bash home/runner/work/gitHub_actions_POC2/gitHub_actions_POC2/script.sh
