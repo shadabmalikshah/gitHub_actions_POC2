@@ -21,4 +21,4 @@ jobs:
           ls -l
       - name: Adding Script to my workflow in github actions
         run: |
-          bash home/runner/work/gitHub_actions_POC2/gitHub_actions_POC2/script.sh
+          bash /home/runner/work/gitHub_actions_POC2/gitHub_actions_POC2/script.sh
